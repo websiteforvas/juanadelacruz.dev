@@ -66,7 +66,7 @@ weight = 7
 [[feature]]
   icon = "searchengin"
   icon_pack = "fab"
-  name = "Search Engine Optimization(SEO)"
+  name = "SEO"
   description = "Getting your client ranked on the Google and Bing Search Engines"
   
 +++
