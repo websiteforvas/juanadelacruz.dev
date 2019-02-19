@@ -10,7 +10,7 @@ role = "Virtual Assistant"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = []
+organizations = [ { name = "FreeLancers In the Philippines", url = "https://www.facebook.com/groups/wfhr.io/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
