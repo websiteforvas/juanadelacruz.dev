@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+
+publish_mode: editorial_workflow
+
+media_folder: "static/uploads" # Folder where user uploaded files should go
+public_folder: "uploads"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "content/post" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Last Mod Date", name: "lastmod", widget: "datetime"}
+      - label: "Author"
+        name: "authors"
+        widget: "list"
+        default: ["Editor"]
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: [""]
+      - {label: "Summary", name: "summary", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
