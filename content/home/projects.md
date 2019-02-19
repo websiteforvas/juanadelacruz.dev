@@ -48,9 +48,5 @@ filter_default = 0
   name = "Data Visualization"
   tag = "Data Visualization"  
 
-[[filter]]
-  name = "eLearning"
-  tag = "eLearning"
-
 +++
 
