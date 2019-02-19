@@ -43,11 +43,11 @@
 [[main_right]]
   name = "<i class=\"fab fa-twitter\" style=\"color: #38a1f3; font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
-  url = "https://twitter.com/"
+  url = "https://twitter.com/juanadelacruzzz"
   weight = 20
   
 [[main_right]]
   name = "<i class=\"fab fa-facebook\" style=\"color: #3b5998; font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
-  url = "https://facebook.com/"
+  url = "https://facebook.com/juanadelacruzzz"
   weight = 30
